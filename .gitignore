@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales del proyecto
+*.py_temp_*
+grf_data.py_temp_append
+*.tmp
+
+# Archivos generados pesados (Simulaciones y Videos)
+# Los archivos .npz pesan más de 500 MB en total. 
+# Se ignoran para mantener el repositorio ágil y compatible con GitHub (<100MB por archivo).
+log_simulaciones/*.npz
+!log_simulaciones/Nombres_Sim.txt
+!log_simulaciones/.gitkeep
+
+vid_sims/*.mp4
+vid_sims/*.gif
+!vid_sims/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
